@@ -141,18 +141,16 @@ hr{
         flex-direction: column;
     }
 }
- /* tablet device */
- @media only screen and (min-width:689px) and(max-width:992px){
-    .container{
+ /* tablet devices */
+
+ @media only screen and (min-width: 689px) and (max-width: 992px) {
+    .container {
         width: 100%;
     }
- .courses, .blogs{
-        grid-template-columns: repeat(2,1fr);
-        
+    .players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
     }
-    .course-banner img {
-        width: 224px;
-        height: 87px;
-    }
-    
+ 
 }
